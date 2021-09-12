@@ -1,28 +1,31 @@
 let Links = {
     setColor:function (color){
-        let links = document.querySelectorAll('a');
-        let i = 0;
-        while(i<links.length){
-            links[i].style.color = color;
-            i=i+1;
-        }
+        // let links = document.querySelectorAll('a');
+        // let i = 0;
+        // while(i<links.length){
+        //     links[i].style.color = color;
+        //     i=i+1;
+        // }
+        $('a').css('color',color);
     }
 }
-function LinksSetColor(color){
-    let links = document.querySelectorAll('a');
-    let i = 0;
-    while(i<links.length){
-        links[i].style.color = color;
-        i=i+1;
-    }
-}
+// function LinksSetColor(color){
+//     let links = document.querySelectorAll('a');
+//     let i = 0;
+//     while(i<links.length){
+//         links[i].style.color = color;
+//         i=i+1;
+//     }
+// }
 
 let Body = {
     setColor : function(color){
-        document.querySelector('body').style.color=color;
+        // document.querySelector('body').style.color=color;
+        $('body').css('color',color);
     },
     setBackgroundColor : function(color){
-        document.querySelector('body').style.backgroundColor=color;
+        // document.querySelector('body').style.backgroundColor=color;
+        $('body').css('backgroundColor',color)
     }
 }
 
