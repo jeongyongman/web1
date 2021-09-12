@@ -5,38 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGOING WEB1 - HTML</title>
+    <link rel="stylesheet" href="./css.css" type="text/css">
 </head>
 <body>
     <h1><a href="https://www.w3.org/">W3C</a></h1>
-    <ol>
-        <li><h3><a href="./html.html">HTML</a></h3></li>
-        <li><h3><a href="./css.html">CSS</a></h3></li>
-        <li><h3><a href="./javascript.html">JavaScript</a></h3></li>
-    </ol>
-    <p>
-        <a href="https://unsplash.com/">unsplash</a><br>
-        <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTczfHxjb2Rpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="coding" width="20%">
-    </p>
-    <h1>WEB</h1>
-    <hr>
-    <p>
-        <a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started">HTML</a> (Hypertext Markup Language,하이퍼텍스트 마크업 언어)는 프로그래밍 언어는 아니고, 우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 하여금 알 수 있도록 하는 마크업 언어입니다. 이는 개발자로 하여금 복잡하게도 간단하게도 프로그래밍 할 수 있습니다. HTML은 elements로 구성되어 있으며, 이들은 적절한 방법으로 나타내고 실행하기 위해 각 컨텐츠의 여러 부분들을 감싸고 마크업 합니다. tags 는 웹 상의 다른 페이지로 이동하게 하는 하이퍼링크 내용들을 생성하거나, 단어를 강조하는 등의 역할을 합니다.
-    </p>
-    <p>
-        <a href="https://developer.mozilla.org/ko/docs/Web/CSS">Cascading Style Sheets(CSS)</a>는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링되어야 하는지 지정합니다. <br>
-        CSS는 오픈 웹의 핵심 언어 중 하나이며, W3C 명세가 다양한 브라우저의 표준으로 작동하고 있습니다. 과거에는 CSS 명세의 다양한 부분을 순차적으로 개발했으므로 CSS1, CSS2.1, CSS3처럼 버전을 붙이는 것이 가능했습니다. 그러나 공식 버전이 CSS4로 올라가지는 않을 것입니다.<br>
-        CSS3 이후, CSS 명세의 범위가 엄청나게 넓어짐에 따라 여러 CSS 모듈 사이의 차이도 너무나 커졌습니다. 그래서 이제는 권고안을 모듈별로 개발하고 공개하는 것이 더 효과적인 상황입니다. 이제 W3C는 CSS 명세의 버전을 올리지 않고, 대신 주기적으로 CSS 명세 안정판의 스냅샷을 생성하고 있습니다.
-    </p>
-    <p>
-        어째서 재입문일까요? 왜냐하면, <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/A_re-introduction_to_JavaScript">JavaScript</a>는 세계에서 가장 오해받고 있는 프로그래밍 언어로 악명이 높기 때문입니다. 종종 장난감같다고 조롱당하기도했지만, 이 거짓말같은 단순함 아래에는 몇 가지의 강력한 언어 기능이 숨어 있습니다. Javascript는 현재 엄청나게 많은, 요즘 가장 뜨고있는 애플리케이션들에 사용되고 있어서, 웹 또는 모바일 개발자 누구에게라도 이 기술에 대한 깊은 지식이 중요한 기량이 된다는 것을 보여주고 있습니다. <br>
+    <div id="grid">
+        <ol>
+            <li><a href="./html.html">HTML</a></li>
+            <li><a href="./css.html">CSS</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <p>
+                <a href="https://unsplash.com/">unsplash</a><br>
+                <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTczfHxjb2Rpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="coding" width="20%">
+            </p>
+            <h2>WEB</h2>
+            <hr>
+            <p>
+                <a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started">HTML</a> (Hypertext Markup Language,하이퍼텍스트 마크업 언어)는 프로그래밍 언어는 아니고, 우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 하여금 알 수 있도록 하는 마크업 언어입니다. 이는 개발자로 하여금 복잡하게도 간단하게도 프로그래밍 할 수 있습니다. HTML은 elements로 구성되어 있으며, 이들은 적절한 방법으로 나타내고 실행하기 위해 각 컨텐츠의 여러 부분들을 감싸고 마크업 합니다. tags 는 웹 상의 다른 페이지로 이동하게 하는 하이퍼링크 내용들을 생성하거나, 단어를 강조하는 등의 역할을 합니다.
+            </p>
+            <p>
+                <a href="https://developer.mozilla.org/ko/docs/Web/CSS">Cascading Style Sheets(CSS)</a>는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링되어야 하는지 지정합니다. <br>
+                CSS는 오픈 웹의 핵심 언어 중 하나이며, W3C 명세가 다양한 브라우저의 표준으로 작동하고 있습니다. 과거에는 CSS 명세의 다양한 부분을 순차적으로 개발했으므로 CSS1, CSS2.1, CSS3처럼 버전을 붙이는 것이 가능했습니다. 그러나 공식 버전이 CSS4로 올라가지는 않을 것입니다.<br>
+                CSS3 이후, CSS 명세의 범위가 엄청나게 넓어짐에 따라 여러 CSS 모듈 사이의 차이도 너무나 커졌습니다. 그래서 이제는 권고안을 모듈별로 개발하고 공개하는 것이 더 효과적인 상황입니다. 이제 W3C는 CSS 명세의 버전을 올리지 않고, 대신 주기적으로 CSS 명세 안정판의 스냅샷을 생성하고 있습니다.
+            </p>
+            <p>
+                어째서 재입문일까요? 왜냐하면, <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/A_re-introduction_to_JavaScript">JavaScript</a>는 세계에서 가장 오해받고 있는 프로그래밍 언어로 악명이 높기 때문입니다. 종종 장난감같다고 조롱당하기도했지만, 이 거짓말같은 단순함 아래에는 몇 가지의 강력한 언어 기능이 숨어 있습니다. Javascript는 현재 엄청나게 많은, 요즘 가장 뜨고있는 애플리케이션들에 사용되고 있어서, 웹 또는 모바일 개발자 누구에게라도 이 기술에 대한 깊은 지식이 중요한 기량이 된다는 것을 보여주고 있습니다. <br>
 
-        이 이야기를 이해하는데는 이 언어의 역사를 먼저 보는 것이 도움이 됩니다. JavaScript는 1995년 Netscape의 엔지니어 Brendan Eich에 의해 만들어졌고, 1996년 초에 Netscape 2와 함께 처음 릴리즈 되었습니다. 이것은 원래 LiveScript로 불리기로 되어 있었습니다만 Sun Microsystem의 Java 언어의 성공에 편승해보려고 -두 언어 사이의 공통점이 매우 적음에도 불구하고- 불행이 예견된 마케팅 결정에 따라 이름이 바뀌게 됩니다. 이 결정은 역사상 유래가 없는 혼란의 근원이 되어버립니다. <br>
+                이 이야기를 이해하는데는 이 언어의 역사를 먼저 보는 것이 도움이 됩니다. JavaScript는 1995년 Netscape의 엔지니어 Brendan Eich에 의해 만들어졌고, 1996년 초에 Netscape 2와 함께 처음 릴리즈 되었습니다. 이것은 원래 LiveScript로 불리기로 되어 있었습니다만 Sun Microsystem의 Java 언어의 성공에 편승해보려고 -두 언어 사이의 공통점이 매우 적음에도 불구하고- 불행이 예견된 마케팅 결정에 따라 이름이 바뀌게 됩니다. 이 결정은 역사상 유래가 없는 혼란의 근원이 되어버립니다. <br>
 
-        몇 달 후, Microsoft는 IE3와 함께 JScript를 발표했습니다. 이 JScript는 Javascript를 정말 닮았고 호환성이 좋았습니다. 몇 달 뒤에, Netscape는 1997년에 ECMAScript 표준의 첫번째 판이 되는 JavaScript를 유럽 표준화 단체인 Ecma International에 보냅니다. 이 표준은 1999년에 ECMAScript edition 3에 따라 큰 규모의 개정을 거친 후, 유례없이 아주 안정된 상태로 계속 유지되고 있습니다.4번째 판은 중도 포기되었는데, 언어의 복잡성 증가에 관련한 정치적 문제 때문이었습니다. 이 4번째 판의 많은 파트들은 ECMAScript edition 5 (2009년 12월에 출간)와 6번째 개정판 규격(2015년에 출간)의 근간을 형성하고 있습니다. <br>
+                몇 달 후, Microsoft는 IE3와 함께 JScript를 발표했습니다. 이 JScript는 Javascript를 정말 닮았고 호환성이 좋았습니다. 몇 달 뒤에, Netscape는 1997년에 ECMAScript 표준의 첫번째 판이 되는 JavaScript를 유럽 표준화 단체인 Ecma International에 보냅니다. 이 표준은 1999년에 ECMAScript edition 3에 따라 큰 규모의 개정을 거친 후, 유례없이 아주 안정된 상태로 계속 유지되고 있습니다.4번째 판은 중도 포기되었는데, 언어의 복잡성 증가에 관련한 정치적 문제 때문이었습니다. 이 4번째 판의 많은 파트들은 ECMAScript edition 5 (2009년 12월에 출간)와 6번째 개정판 규격(2015년에 출간)의 근간을 형성하고 있습니다. <br>
 
-        참고: 이제부터는 ECMAScript를 우리에게 좀 더 친근한 말인 "JavaScript"라고 부르겠습니다. <br>
+                참고: 이제부터는 ECMAScript를 우리에게 좀 더 친근한 말인 "JavaScript"라고 부르겠습니다. <br>
 
-        대부분의 프로그래밍 언어와는 달리, JavaScript 언어는 입출력 개념이 없습니다. 이 언어는 호스트 환경 아래에서 스크립트 언어로서 동작하도록 디자인 되어있고, 따라서 외부 세계와 통신하기위해 호스트 환경이 제공하는 메커니즘에 의존합니다. 대부분의 경우 일반적인 호스트 환경은 브라우저이지만 JavaScript 인터프리터는 Adobe Acrobat, Photoshop, SVG images, Yahoo! 위젯 엔진 등의 제품에서도 발견할 수 있고, node.js 와 같은 서버 측 환경에서도 찾을 수 있습니다. 하지만 JavaScript가 사용되는 분야는 계속 더 넓혀지고 있습니다. NoSQL 데이터베이스, Apache CouchDB, 임베디드 컴퓨터, GNU/Linux OS의 가장 유명한 GUI 인 GNOME 과 같은 데스크톱 환경에서도 JavaScript가 사용됩니다. <br>
-    </p>
+                대부분의 프로그래밍 언어와는 달리, JavaScript 언어는 입출력 개념이 없습니다. 이 언어는 호스트 환경 아래에서 스크립트 언어로서 동작하도록 디자인 되어있고, 따라서 외부 세계와 통신하기위해 호스트 환경이 제공하는 메커니즘에 의존합니다. 대부분의 경우 일반적인 호스트 환경은 브라우저이지만 JavaScript 인터프리터는 Adobe Acrobat, Photoshop, SVG images, Yahoo! 위젯 엔진 등의 제품에서도 발견할 수 있고, node.js 와 같은 서버 측 환경에서도 찾을 수 있습니다. 하지만 JavaScript가 사용되는 분야는 계속 더 넓혀지고 있습니다. NoSQL 데이터베이스, Apache CouchDB, 임베디드 컴퓨터, GNU/Linux OS의 가장 유명한 GUI 인 GNOME 과 같은 데스크톱 환경에서도 JavaScript가 사용됩니다. <br>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
